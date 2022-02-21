@@ -40,9 +40,11 @@
 .nav{
     /* border: 3px solid navy; */
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 130px;
+    margin-bottom: 2rem;
+    padding: 0rem 3rem;
 }
 
 
@@ -94,5 +96,15 @@ margin-left: 1rem;
     padding: 1rem 2rem; 
     border-radius: 10px;
     text-transform: lowercase;
+
+}
+
+
+.hero{
+    background: linear-gradient(90deg, var(--secondary) 70%, var(--primary) 70%);
+
+    padding: 8rem 5rem;
+    border-radius: 25px;
+    margin: 3vw;
 
 }
