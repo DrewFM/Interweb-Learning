@@ -1,0 +1,46 @@
+function my_map_mult_two(param_1){
+    //console.log(param_1)
+//Param_1.length sets the length to the array. Whatever values in param_1 is how long the arrray will be.
+    const MULTI =[]
+     
+    let index = 0;
+    while (index < param_1.length) {
+        MULTI[index]= (param_1[index])*2 ;
+        index++;
+ 
+    } //Return after your function. 
+    return MULTI
+}
+
+
+//THIS IS A  COUNTING FUNCTIOON
+
+function my_count_on_it(param_1){
+    //console.log(param_1)
+
+//Param_1.length sets the length to the array. Whatever values in param_1 is how long the arrray will be.
+    var count =[]
+     
+    var index = 0;
+    while (index < param_1.length) {
+        count.push(param_1[index].length)
+        index++;
+    } //Return after your function. 
+    return count;
+}
+
+//FOR MATING A STRING WITH TEXT
+function my_string_formatting(firstname, lastname, age) {
+    console.log( "Hello, my name is " + firstname + " " + lastname + "," + " I'm " + age +"." ); }
+
+
+    function my_each(arr){
+        index = 0
+        var index = 0;
+    
+        while (index < arr.length) {
+            console.log (arr[index]);
+            index++;
+        }
+    }
+    
